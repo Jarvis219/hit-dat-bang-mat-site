@@ -36,7 +36,7 @@ COPY = {
         "eyebrow": "App iOS · miễn phí",
         "h1": "Hít Đất<br>Bằng Mặt",
         "tagline": "Không cần đếm. Cứ sấp mặt xuống. Cảm biến lo phần đếm, Bẹp lo phần cà khịa.",
-        "store": "Sắp có trên App Store", "store_small": "iPhone · iOS 17+",
+        "store": "Sắp có trên App Store", "store_small": "iPhone & iPad · iOS 17+",
         "support": "Hỗ trợ",
         "pills": ["Không quảng cáo", "Không tài khoản", "Không xin camera", "Tiếng Việt · English"],
         "nose": "Mũi", "nose_hint": "Giữ nút Mũi một chút rồi thả = 1 cái",
@@ -74,7 +74,7 @@ COPY = {
         "faq": [
             ("App đếm bằng cách nào?", "Bằng cảm biến tiệm cận ở cạnh trên iPhone, cái làm tắt màn hình khi bạn áp máy lên tai. Mặt lại gần là cảm biến bật, ngẩng lên là tắt, mỗi vòng là một cái."),
             ("Có cần camera không?", "Không. App không xin camera, không xin micro. Quyền duy nhất có thể hỏi là thông báo, và chỉ hỏi sau buổi tập đầu tiên."),
-            ("Dùng trên iPad được không?", "Không. iPad không có cảm biến tiệm cận, nên bản đầu chỉ dành cho iPhone."),
+            ("Dùng trên iPad được không?", "Được. iPad không có cảm biến tiệm cận, nên trên iPad chính màn hình là cảm biến: đặt iPad nằm ngửa dưới mặt, mũi chạm màn hình là một cái. Vẫn đủ luật nửa cái, \"ngủ à?\" và dấu gian lận."),
             ("App có tốn tiền không?", "Không. Miễn phí hoàn toàn, không mua trong app, không quảng cáo. Giọng đếm mới mở bằng số cái bạn hít."),
         ],
         "privacy": "Quyền riêng tư", "other_lang": "English", "other_href": "en/",
@@ -87,7 +87,7 @@ COPY = {
         "eyebrow": "iOS app · free",
         "h1": "Face<br>Push-Up",
         "tagline": "No counting. Just face down. The sensor does the counting, Bep the pug does the trash talk.",
-        "store": "Coming to the App Store", "store_small": "iPhone · iOS 17+",
+        "store": "Coming to the App Store", "store_small": "iPhone & iPad · iOS 17+",
         "support": "Support",
         "pills": ["No ads", "No account", "No camera", "English · Tiếng Việt"],
         "nose": "Nose", "nose_hint": "Hold the Nose button a moment, let go = 1 rep",
@@ -125,7 +125,7 @@ COPY = {
         "faq": [
             ("How does it count?", "With the proximity sensor at the top edge of the iPhone, the one that turns the screen off when you hold the phone to your ear. Face close switches it on, face up switches it off; each cycle is one rep."),
             ("Does it need the camera?", "No. No camera, no microphone. The only permission it may ask for is notifications, and only after your first set."),
-            ("Does it work on iPad?", "No. iPads have no proximity sensor, so version 1.0 is iPhone only."),
+            ("Does it work on iPad?", "Yes. iPads have no proximity sensor, so on iPad the screen itself is the sensor: lay it face up under your face and a nose touch is a rep. Half reps, \"asleep?\" and the cheat stamp all still apply."),
             ("Does it cost anything?", "No. Completely free, no in-app purchases, no ads. New voices unlock with the reps you do."),
         ],
         "privacy": "Privacy", "other_lang": "Tiếng Việt", "other_href": "../",
@@ -434,7 +434,7 @@ SUPPORT = {
         ("Nửa cái là gì?", "Mặt chỉ lướt qua cảm biến dưới 0,15 giây thì không tính. Giữ mặt sát một nhịp rồi mới ngẩng lên."),
         ("Mất chuỗi ngày", "Chuỗi tính theo ngày đủ mục tiêu. Hạ mục tiêu ngày trong Cài đặt nếu bạn hay lỡ. Mất chuỗi không bị phạt gì."),
         ("Đổi máy mới", "Cài đặt → Xuất bản sao lưu trên máy cũ, gửi file sang máy mới rồi Nhập bản sao lưu. File có chữ ký chống sửa, hãy dùng đúng file gốc."),
-        ("Dùng trên iPad?", "Chưa được. iPad không có cảm biến tiệm cận, nên bản 1.0 chỉ dành cho iPhone."),
+        ("Dùng trên iPad thế nào?", "iPad không có cảm biến tiệm cận nên đếm bằng màn hình: đặt iPad nằm ngửa trên sàn, mũi chạm màn hình rồi nhấc lên là một cái. Lúc mũi đang chạm, nền chuyển xanh. Nút Xong vẫn giữ 1 giây như iPhone."),
     ],
     "en": [
         ("It doesn't count", "The proximity sensor sits at the top edge of the screen, next to the earpiece. Thick cases and some screen protectors cover it; try without the case. Settings → Test the sensor checks it: the dot turns green when the phone sees you."),
@@ -445,7 +445,7 @@ SUPPORT = {
         ("What's a half rep?", "A face that only brushes the sensor for under 0.15 seconds doesn't count. Hold close for a beat, then come up."),
         ("I lost my streak", "A streak counts days you reach the goal. Lower the daily goal in Settings if you miss it often. Losing a streak costs nothing."),
         ("Moving to a new phone", "Settings → Export backup on the old phone, send the file over and Import backup. Backups are signed; use the original file."),
-        ("iPad?", "Not yet. iPads have no proximity sensor, so version 1.0 is iPhone only."),
+        ("How does it work on iPad?", "iPads have no proximity sensor, so the screen counts: lay the iPad face up on the floor, touch the screen with your nose and come back up. The screen turns green while your nose is on it. Hold Done for one second, as on iPhone."),
     ],
 }
 
