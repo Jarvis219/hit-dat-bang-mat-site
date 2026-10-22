@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jarvis219.github.io/hit-dat-bang-mat-site/sitemap.xml
